@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "firstName": {"type": "string"},
+        "secondName": {"type": "string"},
+        "ageInYears": {"type": "integer"},
+        "address": {"type": "string"},
+        "creditScore": {"type": "number"}
+    },
+    "required": ["firstName", "secondName", "ageInYears", "address", "creditScore"]
+}
